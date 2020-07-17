@@ -1,0 +1,9 @@
+version: "3.5"
+
+services:
+  config-server:
+    container_name: config-server
+    build: .
+    restart: always
+    ports:
+      - 8079:8079
