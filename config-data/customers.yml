@@ -14,7 +14,7 @@ eureka:
       defaultZone: http://localhost:8099/eureka/
 
 # management.endpoints.web.exposure.include: '*'
-# management.endpoint.health.show-details: always
+management.endpoint.health.show-details: always
 # management.health.circuitbreakers.enabled: true
 
 resilience4j.circuitbreaker:
