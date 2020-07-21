@@ -9,8 +9,8 @@ spring:
           uri: https://github.com/sergiorivasmedina/config-server.git
           search-paths:
           - config-data
-          username: ${GIT_USER}
-          password: ${GIT_PASSWORD}
+          # username: ${GIT_USER}
+          # password: ${GIT_PASSWORD}
   security:
     user:
       name: root
